@@ -23,18 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "monero-public",
     "status": "up",
-    "uptime": "64.90%",
-    "uptimeDay": "64.90%",
-    "uptimeWeek": "64.90%",
-    "uptimeMonth": "64.90%",
-    "uptimeYear": "64.90%",
+    "uptime": "74.97%",
+    "uptimeDay": "74.97%",
+    "uptimeWeek": "74.97%",
+    "uptimeMonth": "74.97%",
+    "uptimeYear": "74.97%",
     "time": 146,
     "timeDay": 146,
     "timeWeek": 146,
     "timeMonth": 146,
     "timeYear": 146,
     "dailyMinutesDown": {
-      "2023-03-06": 27
+      "2023-03-06": 19
     }
   },
   {
