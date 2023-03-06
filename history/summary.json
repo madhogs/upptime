@@ -22,19 +22,19 @@
     "url": "$BASE_URL_MADHOGS",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "monero-public",
-    "status": "up",
-    "uptime": "27.31%",
-    "uptimeDay": "27.31%",
-    "uptimeWeek": "27.31%",
-    "uptimeMonth": "27.31%",
-    "uptimeYear": "27.31%",
+    "status": "down",
+    "uptime": "99.75%",
+    "uptimeDay": "99.75%",
+    "uptimeWeek": "99.75%",
+    "uptimeMonth": "99.75%",
+    "uptimeYear": "99.75%",
     "time": 141,
     "timeDay": 141,
     "timeWeek": 141,
     "timeMonth": 141,
     "timeYear": 141,
     "dailyMinutesDown": {
-      "2023-03-06": 12
+      "2023-03-06": 0
     }
   },
   {
