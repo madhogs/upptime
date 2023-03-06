@@ -2,25 +2,27 @@ owner: madhogs
 repo: upptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
   - name: qBittorrent public
     check: "tcp-ping"
     url: $SITE_URL_QBITTORRENT_PUBLIC
     port: $SITE_PORT_QBITTORRENT_PUBLIC
+  - name: Monero public
+    check: "tcp-ping"
+    url: $BASE_URL_MADHOGS
+    port: $SITE_PORT_MONERO_PUBLIC
+  - name: Tor bridge OR public
+    check: "tcp-ping"
+    url: $BASE_URL_MADHOGS
+    port: $SITE_PORT_TOR_OR_PUBLIC
+  - name: Tor bridge PT public
+    check: "tcp-ping"
+    url: $BASE_URL_MADHOGS
+    port: $SITE_PORT_TOR_PT_PUBLIC
 
 status-website:
   baseUrl: /upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
-  introTitle: "Upptime"
-  introMessage: Status
   navbar:
     - title: Status
       href: /
