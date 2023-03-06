@@ -21,7 +21,6 @@ sites:
 
 status-website:
   cname: $STATUS_URL_MADHOGS
-  apiBaseUrl: https://api.github.com
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   navbar:
