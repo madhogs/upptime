@@ -10,6 +10,10 @@ sites:
     url: https://news.ycombinator.com
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
+  - name: qBittorrent public
+    check: "tcp-ping"
+    url: $SITE_URL_QBITTORRENT_PUBLIC
+    port: $SITE_PORT_QBITTORRENT_PUBLIC
 
 status-website:
   baseUrl: /upptime
