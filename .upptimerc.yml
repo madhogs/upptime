@@ -18,6 +18,10 @@ sites:
     check: "tcp-ping"
     url: $BASE_URL_MADHOGS
     port: $SITE_PORT_TOR_PT_PUBLIC
+  - name: Socks5
+    check: "tcp-ping"
+    url: $VPS_URL
+    port: $SITE_PORT_SOCKS5
 
 status-website:
   cname: status.madhogs.dev
