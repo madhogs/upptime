@@ -20,7 +20,7 @@ sites:
     port: $SITE_PORT_TOR_PT_PUBLIC
 
 status-website:
-  cname: $STATUS_URL_MADHOGS
+  cname: status.madhogs.dev
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   navbar:
