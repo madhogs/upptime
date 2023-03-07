@@ -4,19 +4,19 @@
     "url": "$SITE_URL_QBITTORRENT_PUBLIC",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "q-bittorrent-public",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
-    "time": 155,
-    "timeDay": 148,
-    "timeWeek": 155,
-    "timeMonth": 155,
-    "timeYear": 155,
+    "status": "up",
+    "uptime": "94.76%",
+    "uptimeDay": "92.35%",
+    "uptimeWeek": "94.76%",
+    "uptimeMonth": "94.76%",
+    "uptimeYear": "94.76%",
+    "time": 159,
+    "timeDay": 156,
+    "timeWeek": 159,
+    "timeMonth": 159,
+    "timeYear": 159,
     "dailyMinutesDown": {
-      "2023-03-07": 0
+      "2023-03-07": 110
     }
   },
   {
@@ -31,7 +31,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 136,
-    "timeDay": 125,
+    "timeDay": 121,
     "timeWeek": 136,
     "timeMonth": 136,
     "timeYear": 136,
@@ -49,7 +49,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 120,
-    "timeDay": 119,
+    "timeDay": 117,
     "timeWeek": 120,
     "timeMonth": 120,
     "timeYear": 120,
@@ -67,7 +67,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 119,
-    "timeDay": 119,
+    "timeDay": 116,
     "timeWeek": 119,
     "timeMonth": 119,
     "timeYear": 119,
@@ -79,18 +79,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "socks5",
     "status": "down",
-    "uptime": "3.85%",
-    "uptimeDay": "3.85%",
-    "uptimeWeek": "3.85%",
-    "uptimeMonth": "3.85%",
-    "uptimeYear": "3.85%",
+    "uptime": "0.01%",
+    "uptimeDay": "0.01%",
+    "uptimeWeek": "0.01%",
+    "uptimeMonth": "0.01%",
+    "uptimeYear": "0.01%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2023-03-07": 0
+      "2023-03-07": 110
     }
   }
 ]
