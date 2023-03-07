@@ -18,10 +18,25 @@ sites:
     check: "tcp-ping"
     url: $BASE_URL_MADHOGS
     port: $SITE_PORT_TOR_PT_PUBLIC
-  - name: Socks5
+  - name: Vpn Proxy
     check: "tcp-ping"
     url: $VPS_URL
-    port: $SITE_PORT_SOCKS5
+    port: $SITE_PORT_VPN_PROXY
+  - name: Tor Proxy
+    check: "tcp-ping"
+    url: $VPS_URL
+    port: $SITE_PORT_TOR_PROXY
+  - name: Portainer Agent
+    check: "tcp-ping"
+    url: $VPS_URL
+    port: $SITE_PORT_PORTAINER_AGENT
+  - name: qBitTorrent UI
+    url: $SITE_URL_QBITTORRENT_UI
+  - name: Jellyfin UI
+    url: $SITE_URL_JELLYFIN_UI
+  - name: Portainer UI
+    url: $SITE_URL_PORTAINER_UI
+  
 
 status-website:
   cname: status.madhogs.dev
@@ -32,3 +47,12 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+# Changes:
+# Remove schedule from update-template.yml
+#
+# Add below step before Check endpoint status to uptime.yml
+# - name: Tailscale
+#   uses: tailscale/github-action@v1
+#   with:
+#     authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
