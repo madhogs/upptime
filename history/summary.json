@@ -5,19 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "q-bittorrent-public",
     "status": "up",
-    "uptime": "99.54%",
-    "uptimeDay": "98.07%",
-    "uptimeWeek": "99.54%",
-    "uptimeMonth": "99.54%",
-    "uptimeYear": "99.54%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 160,
     "timeDay": 147,
     "timeWeek": 160,
     "timeMonth": 160,
     "timeYear": 160,
-    "dailyMinutesDown": {
-      "2023-03-10": 28
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Monero public",
@@ -78,19 +76,19 @@
     "url": "$VPS_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "vpn-proxy",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
-    "time": 191,
-    "timeDay": 222,
-    "timeWeek": 191,
-    "timeMonth": 191,
-    "timeYear": 191,
+    "status": "up",
+    "uptime": "99.88%",
+    "uptimeDay": "99.68%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.88%",
+    "uptimeYear": "99.88%",
+    "time": 198,
+    "timeDay": 227,
+    "timeWeek": 198,
+    "timeMonth": 198,
+    "timeYear": 198,
     "dailyMinutesDown": {
-      "2023-03-10": 1
+      "2023-03-10": 5
     }
   },
   {
@@ -98,19 +96,19 @@
     "url": "$VPS_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "tor-proxy",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
-    "time": 122,
-    "timeDay": 139,
-    "timeWeek": 122,
-    "timeMonth": 122,
-    "timeYear": 122,
+    "status": "up",
+    "uptime": "99.88%",
+    "uptimeDay": "99.68%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.88%",
+    "uptimeYear": "99.88%",
+    "time": 126,
+    "timeDay": 142,
+    "timeWeek": 126,
+    "timeMonth": 126,
+    "timeYear": 126,
     "dailyMinutesDown": {
-      "2023-03-10": 1
+      "2023-03-10": 5
     }
   },
   {
@@ -118,19 +116,19 @@
     "url": "$VPS_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portainer-agent",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
-    "time": 121,
-    "timeDay": 139,
-    "timeWeek": 121,
-    "timeMonth": 121,
-    "timeYear": 121,
+    "status": "up",
+    "uptime": "99.88%",
+    "uptimeDay": "99.67%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.88%",
+    "uptimeYear": "99.88%",
+    "time": 125,
+    "timeDay": 142,
+    "timeWeek": 125,
+    "timeMonth": 125,
+    "timeYear": 125,
     "dailyMinutesDown": {
-      "2023-03-10": 1
+      "2023-03-10": 5
     }
   },
   {
@@ -138,19 +136,19 @@
     "url": "$SITE_URL_QBITTORRENT_UI",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "q-bit-torrent-ui",
-    "status": "down",
-    "uptime": "98.96%",
-    "uptimeDay": "97.23%",
-    "uptimeWeek": "98.96%",
-    "uptimeMonth": "98.96%",
-    "uptimeYear": "98.96%",
-    "time": 708,
-    "timeDay": 798,
-    "timeWeek": 708,
-    "timeMonth": 708,
-    "timeYear": 708,
+    "status": "up",
+    "uptime": "98.86%",
+    "uptimeDay": "96.95%",
+    "uptimeWeek": "98.86%",
+    "uptimeMonth": "98.86%",
+    "uptimeYear": "98.86%",
+    "time": 678,
+    "timeDay": 733,
+    "timeWeek": 678,
+    "timeMonth": 678,
+    "timeYear": 678,
     "dailyMinutesDown": {
-      "2023-03-10": 40
+      "2023-03-10": 44
     }
   },
   {
@@ -158,19 +156,19 @@
     "url": "$SITE_URL_JELLYFIN_UI",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "jellyfin-ui",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 622,
-    "timeDay": 728,
-    "timeWeek": 622,
-    "timeMonth": 622,
-    "timeYear": 622,
+    "status": "up",
+    "uptime": "99.88%",
+    "uptimeDay": "99.69%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.88%",
+    "uptimeYear": "99.88%",
+    "time": 690,
+    "timeDay": 821,
+    "timeWeek": 690,
+    "timeMonth": 690,
+    "timeYear": 690,
     "dailyMinutesDown": {
-      "2023-03-10": 1
+      "2023-03-10": 5
     }
   },
   {
@@ -178,19 +176,19 @@
     "url": "$SITE_URL_PORTAINER_UI",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portainer-ui",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 625,
-    "timeDay": 735,
-    "timeWeek": 625,
-    "timeMonth": 625,
-    "timeYear": 625,
+    "status": "up",
+    "uptime": "99.89%",
+    "uptimeDay": "99.70%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.89%",
+    "uptimeYear": "99.89%",
+    "time": 653,
+    "timeDay": 757,
+    "timeWeek": 653,
+    "timeMonth": 653,
+    "timeYear": 653,
     "dailyMinutesDown": {
-      "2023-03-10": 0
+      "2023-03-10": 4
     }
   }
 ]
