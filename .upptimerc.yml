@@ -50,6 +50,7 @@ status-website:
 
 # Changes:
 # Remove schedule from update-template.yml
+# Remove update-template step from setup.yml
 #
 # Add below step before Check endpoint status to uptime.yml
 # - name: Tailscale
