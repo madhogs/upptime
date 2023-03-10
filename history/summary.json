@@ -148,19 +148,19 @@
     "url": "$SITE_URL_JELLYFIN_UI",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "jellyfin-ui",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 690,
-    "timeDay": 821,
-    "timeWeek": 690,
-    "timeMonth": 690,
-    "timeYear": 690,
+    "status": "up",
+    "uptime": "99.26%",
+    "uptimeDay": "97.91%",
+    "uptimeWeek": "99.26%",
+    "uptimeMonth": "99.26%",
+    "uptimeYear": "99.26%",
+    "time": 733,
+    "timeDay": 863,
+    "timeWeek": 733,
+    "timeMonth": 733,
+    "timeYear": 733,
     "dailyMinutesDown": {
-      "2023-03-10": 0
+      "2023-03-10": 30
     }
   },
   {
@@ -168,19 +168,19 @@
     "url": "$SITE_URL_PORTAINER_UI",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portainer-ui",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 653,
-    "timeDay": 757,
-    "timeWeek": 653,
-    "timeMonth": 653,
-    "timeYear": 653,
+    "status": "up",
+    "uptime": "99.26%",
+    "uptimeDay": "97.92%",
+    "uptimeWeek": "99.26%",
+    "uptimeMonth": "99.26%",
+    "uptimeYear": "99.26%",
+    "time": 665,
+    "timeDay": 754,
+    "timeWeek": 665,
+    "timeMonth": 665,
+    "timeYear": 665,
     "dailyMinutesDown": {
-      "2023-03-10": 0
+      "2023-03-10": 30
     }
   }
 ]
