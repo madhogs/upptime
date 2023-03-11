@@ -20,15 +20,19 @@ sites:
     port: $SITE_PORT_TOR_PT_PUBLIC
   - name: Vpn Proxy
     check: "tcp-ping"
-    url: $VPS_URL
+    url: $ORACLE_URL
     port: $SITE_PORT_VPN_PROXY
   - name: Tor Proxy
     check: "tcp-ping"
-    url: $VPS_URL
+    url: $ORACLE_URL
     port: $SITE_PORT_TOR_PROXY
-  - name: Portainer Agent
+  - name: Portainer Agent Oracle
     check: "tcp-ping"
-    url: $VPS_URL
+    url: $ORACLE_URL
+    port: $SITE_PORT_PORTAINER_AGENT
+  - name: Portainer Agent Vultr
+    check: "tcp-ping"
+    url: $VULTR_URL
     port: $SITE_PORT_PORTAINER_AGENT
   - name: qBitTorrent UI
     url: $SITE_URL_QBITTORRENT_UI
