@@ -30,9 +30,9 @@ sites:
     check: "tcp-ping"
     url: $ORACLE_URL
     port: $SITE_PORT_PORTAINER_AGENT
-  - name: Portainer Agent Vultr
+  - name: Portainer Agent Pi
     check: "tcp-ping"
-    url: $VULTR_URL
+    url: $PI_URL
     port: $SITE_PORT_PORTAINER_AGENT
   - name: qBitTorrent UI
     url: $SITE_URL_QBITTORRENT_UI
