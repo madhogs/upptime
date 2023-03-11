@@ -73,58 +73,82 @@
   },
   {
     "name": "Vpn Proxy",
-    "url": "$VPS_URL",
+    "url": "$ORACLE_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "vpn-proxy",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.99%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 194,
     "timeDay": 162,
     "timeWeek": 194,
     "timeMonth": 194,
     "timeYear": 194,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-03-11": 1
+    }
   },
   {
     "name": "Tor Proxy",
-    "url": "$VPS_URL",
+    "url": "$ORACLE_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "tor-proxy",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.99%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 123,
     "timeDay": 99,
     "timeWeek": 123,
     "timeMonth": 123,
     "timeYear": 123,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-03-11": 1
+    }
   },
   {
-    "name": "Portainer Agent",
-    "url": "$VPS_URL",
+    "name": "Portainer Agent Oracle",
+    "url": "$ORACLE_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "portainer-agent",
+    "slug": "portainer-agent-oracle",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 122,
-    "timeDay": 98,
-    "timeWeek": 122,
-    "timeMonth": 122,
-    "timeYear": 122,
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
     "dailyMinutesDown": {
-      "2023-03-11": 0
+      "2023-03-11": 1
+    }
+  },
+  {
+    "name": "Portainer Agent Vultr",
+    "url": "$VULTR_URL",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "portainer-agent-vultr",
+    "status": "down",
+    "uptime": "0.01%",
+    "uptimeDay": "0.01%",
+    "uptimeWeek": "0.01%",
+    "uptimeMonth": "0.01%",
+    "uptimeYear": "0.01%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2023-03-11": 1
     }
   },
   {
@@ -132,27 +156,29 @@
     "url": "$SITE_URL_QBITTORRENT_UI",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "q-bit-torrent-ui",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 641,
     "timeDay": 346,
     "timeWeek": 641,
     "timeMonth": 641,
     "timeYear": 641,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-03-11": 1
+    }
   },
   {
     "name": "Jellyfin UI",
     "url": "$SITE_URL_JELLYFIN_UI",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "jellyfin-ui",
-    "status": "up",
+    "status": "down",
     "uptime": "99.44%",
-    "uptimeDay": "97.91%",
+    "uptimeDay": "97.88%",
     "uptimeWeek": "99.44%",
     "uptimeMonth": "99.44%",
     "uptimeYear": "99.44%",
@@ -162,6 +188,7 @@
     "timeMonth": 731,
     "timeYear": 731,
     "dailyMinutesDown": {
+      "2023-03-11": 0,
       "2023-03-10": 30
     }
   },
@@ -171,18 +198,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portainer-ui",
     "status": "down",
-    "uptime": "99.44%",
-    "uptimeDay": "97.91%",
-    "uptimeWeek": "99.44%",
-    "uptimeMonth": "99.44%",
-    "uptimeYear": "99.44%",
+    "uptime": "99.07%",
+    "uptimeDay": "96.51%",
+    "uptimeWeek": "99.07%",
+    "uptimeMonth": "99.07%",
+    "uptimeYear": "99.07%",
     "time": 654,
     "timeDay": 656,
     "timeWeek": 654,
     "timeMonth": 654,
     "timeYear": 654,
     "dailyMinutesDown": {
-      "2023-03-11": 0,
+      "2023-03-11": 20,
       "2023-03-10": 30
     }
   }
