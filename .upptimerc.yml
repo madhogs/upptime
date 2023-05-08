@@ -1,0 +1,63 @@
+owner: madhogs
+repo: upptime
+
+sites:
+  - name: qBittorrent public
+    check: "tcp-ping"
+    url: $SITE_URL_QBITTORRENT_PUBLIC
+    port: $SITE_PORT_QBITTORRENT_PUBLIC
+  - name: Monero public
+    check: "tcp-ping"
+    url: $BASE_URL_MADHOGS
+    port: $SITE_PORT_MONERO_PUBLIC
+  - name: Tor bridge OR public
+    check: "tcp-ping"
+    url: $BASE_URL_MADHOGS
+    port: $SITE_PORT_TOR_OR_PUBLIC
+  - name: Tor bridge PT public
+    check: "tcp-ping"
+    url: $BASE_URL_MADHOGS
+    port: $SITE_PORT_TOR_PT_PUBLIC
+  - name: Vpn Proxy
+    check: "tcp-ping"
+    url: oracle
+    port: $SITE_PORT_VPN_PROXY
+  - name: Tor Proxy
+    check: "tcp-ping"
+    url: oracle
+    port: $SITE_PORT_TOR_PROXY
+  - name: Portainer Agent Oracle
+    check: "tcp-ping"
+    url: oracle
+    port: $SITE_PORT_PORTAINER_AGENT
+  - name: Portainer Agent Pi
+    check: "tcp-ping"
+    url: pi
+    port: $SITE_PORT_PORTAINER_AGENT
+  - name: qBitTorrent UI
+    url: https://qbittorrent.$BASE_URL_MADHOGS
+  - name: Jellyfin UI
+    url: https://jellyfin.$BASE_URL_MADHOGS
+  - name: Portainer UI
+    url: https://portainer.$BASE_URL_MADHOGS
+  
+
+status-website:
+  cname: status.madhogs.dev
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  name: Upptime
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+
+# Changes:
+# Remove schedule from update-template.yml
+# Remove update-template step from setup.yml
+#
+# Add below step before Check endpoint status to uptime.yml
+# - name: Tailscale
+#   uses: tailscale/github-action@v1
+#   with:
+#     authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
