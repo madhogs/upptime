@@ -148,10 +148,10 @@
     "url": "https://qbittorrent.$BASE_URL_MADHOGS",
     "icon": "https://icons.duckduckgo.com/ip3/qbittorrent..ico",
     "slug": "q-bit-torrent-ui",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 711,
@@ -159,16 +159,18 @@
     "timeWeek": 711,
     "timeMonth": 711,
     "timeYear": 711,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-05-09": 1
+    }
   },
   {
     "name": "Jellyfin UI",
     "url": "https://jellyfin.$BASE_URL_MADHOGS",
     "icon": "https://icons.duckduckgo.com/ip3/jellyfin..ico",
     "slug": "jellyfin-ui",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -177,7 +179,9 @@
     "timeWeek": 785,
     "timeMonth": 785,
     "timeYear": 785,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-05-09": 0
+    }
   },
   {
     "name": "Portainer UI",
