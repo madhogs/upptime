@@ -1,7 +1,7 @@
 url: oracle
-status: up
-code: 200
+status: down
+code: 0
 responseTime: 0
-lastUpdated: 2023-05-18T00:38:41.906Z
+lastUpdated: 2023-05-18T23:05:51.658Z
 startTime: Tue Mar 07 2023 21:47:22 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
