@@ -38,6 +38,8 @@ sites:
     url: https://qbittorrent.$BASE_URL_MADHOGS
   - name: Jellyfin UI
     url: https://jellyfin.$BASE_URL_MADHOGS
+  - name: Jellyseerr UI
+    url: https://jellyseerr.$BASE_URL_MADHOGS
   - name: Portainer UI
     url: https://portainer.$BASE_URL_MADHOGS
   
