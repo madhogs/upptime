@@ -1,7 +1,7 @@
 url: https://prowlarr.$BASE_URL_MADHOGS
-status: up
-code: 200
-responseTime: 646
-lastUpdated: 2023-05-30T00:32:33.120Z
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2023-05-30T23:06:23.964Z
 startTime: Mon May 29 2023 10:43:15 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
