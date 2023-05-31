@@ -24,6 +24,11 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT }}
+      - name: Tailscale
+        uses: tailscale/github-action@v1
+        with:
+          authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
+          version: '1.42.0'
       - name: Update response time
         uses: upptime/uptime-monitor@v1.29.0
         with:
