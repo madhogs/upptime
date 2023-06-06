@@ -26,9 +26,9 @@ sites:
     check: "tcp-ping"
     url: oracle
     port: $SITE_PORT_TOR_PROXY
-  - name: Portainer Agent Oracle
+  - name: Portainer Agent Vultr
     check: "tcp-ping"
-    url: oracle
+    url: vultr
     port: $SITE_PORT_PORTAINER_AGENT
   - name: Portainer Agent Pi
     check: "tcp-ping"
