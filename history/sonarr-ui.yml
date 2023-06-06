@@ -1,7 +1,7 @@
 url: https://sonarr.$BASE_URL_MADHOGS
-status: up
-code: 200
-responseTime: 759
-lastUpdated: 2023-06-04T23:05:22.552Z
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2023-06-06T22:03:20.355Z
 startTime: Mon May 29 2023 10:43:11 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
