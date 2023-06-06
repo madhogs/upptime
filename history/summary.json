@@ -112,9 +112,9 @@
     "url": "oracle",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portainer-agent-oracle",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -123,7 +123,9 @@
     "timeWeek": 137,
     "timeMonth": 141,
     "timeYear": 141,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-06-06": 0
+    }
   },
   {
     "name": "Portainer Agent Pi",
@@ -148,9 +150,9 @@
     "url": "https://qbittorrent.$BASE_URL_MADHOGS",
     "icon": "https://icons.duckduckgo.com/ip3/qbittorrent..ico",
     "slug": "q-bit-torrent-ui",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -159,16 +161,18 @@
     "timeWeek": 670,
     "timeMonth": 750,
     "timeYear": 750,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-06-06": 0
+    }
   },
   {
     "name": "Jellyfin UI",
     "url": "https://jellyfin.$BASE_URL_MADHOGS",
     "icon": "https://icons.duckduckgo.com/ip3/jellyfin..ico",
     "slug": "jellyfin-ui",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -177,16 +181,18 @@
     "timeWeek": 766,
     "timeMonth": 767,
     "timeYear": 767,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-06-06": 0
+    }
   },
   {
     "name": "Jellyseerr UI",
     "url": "https://jellyseerr.$BASE_URL_MADHOGS",
     "icon": "https://icons.duckduckgo.com/ip3/jellyseerr..ico",
     "slug": "jellyseerr-ui",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -195,16 +201,18 @@
     "timeWeek": 1390,
     "timeMonth": 1585,
     "timeYear": 1585,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-06-06": 0
+    }
   },
   {
     "name": "Sonarr UI",
     "url": "https://sonarr.$BASE_URL_MADHOGS",
     "icon": "https://icons.duckduckgo.com/ip3/sonarr..ico",
     "slug": "sonarr-ui",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -213,16 +221,18 @@
     "timeWeek": 621,
     "timeMonth": 651,
     "timeYear": 651,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-06-06": 0
+    }
   },
   {
     "name": "Radarr UI",
     "url": "https://radarr.$BASE_URL_MADHOGS",
     "icon": "https://icons.duckduckgo.com/ip3/radarr..ico",
     "slug": "radarr-ui",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -231,16 +241,18 @@
     "timeWeek": 640,
     "timeMonth": 672,
     "timeYear": 672,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-06-06": 0
+    }
   },
   {
     "name": "Bazarr UI",
     "url": "https://bazarr.$BASE_URL_MADHOGS",
     "icon": "https://icons.duckduckgo.com/ip3/bazarr..ico",
     "slug": "bazarr-ui",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -249,16 +261,18 @@
     "timeWeek": 593,
     "timeMonth": 603,
     "timeYear": 603,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-06-06": 0
+    }
   },
   {
     "name": "Prowlarr UI",
     "url": "https://prowlarr.$BASE_URL_MADHOGS",
     "icon": "https://icons.duckduckgo.com/ip3/prowlarr..ico",
     "slug": "prowlarr-ui",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -267,16 +281,18 @@
     "timeWeek": 652,
     "timeMonth": 697,
     "timeYear": 697,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-06-06": 0
+    }
   },
   {
     "name": "Portainer UI",
     "url": "https://portainer.$BASE_URL_MADHOGS",
     "icon": "https://icons.duckduckgo.com/ip3/portainer..ico",
     "slug": "portainer-ui",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -285,6 +301,8 @@
     "timeWeek": 708,
     "timeMonth": 699,
     "timeYear": 699,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-06-06": 0
+    }
   }
 ]
