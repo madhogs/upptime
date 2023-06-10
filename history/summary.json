@@ -77,18 +77,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "vpn-proxy",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.87%",
+    "uptimeDay": "87.68%",
+    "uptimeWeek": "98.24%",
+    "uptimeMonth": "99.59%",
+    "uptimeYear": "99.87%",
     "time": 221,
     "timeDay": 237,
     "timeWeek": 233,
     "timeMonth": 220,
     "timeYear": 221,
     "dailyMinutesDown": {
-      "2023-06-10": 0
+      "2023-06-10": 177
     }
   },
   {
@@ -132,9 +132,9 @@
     "url": "pi",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portainer-agent-pi",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -143,7 +143,9 @@
     "timeWeek": 212,
     "timeMonth": 206,
     "timeYear": 206,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-06-10": 0
+    }
   },
   {
     "name": "qBitTorrent UI",
