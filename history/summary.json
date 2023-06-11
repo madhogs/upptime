@@ -77,18 +77,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "vpn-proxy",
     "status": "down",
-    "uptime": "99.66%",
-    "uptimeDay": "67.23%",
-    "uptimeWeek": "95.32%",
-    "uptimeMonth": "98.92%",
-    "uptimeYear": "99.66%",
+    "uptime": "98.83%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "83.95%",
+    "uptimeMonth": "96.31%",
+    "uptimeYear": "98.83%",
     "time": 221,
     "timeDay": 0,
     "timeWeek": 230,
     "timeMonth": 220,
     "timeYear": 221,
     "dailyMinutesDown": {
-      "2023-06-11": 117,
+      "2023-06-11": 1263,
       "2023-06-10": 355
     }
   },
@@ -115,9 +115,9 @@
     "url": "vultr",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portainer-agent-vultr",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -126,16 +126,18 @@
     "timeWeek": 193,
     "timeMonth": 193,
     "timeYear": 193,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-06-11": 0
+    }
   },
   {
     "name": "Portainer Agent Pi",
     "url": "pi",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "portainer-agent-pi",
-    "status": "up",
+    "status": "down",
     "uptime": "99.95%",
-    "uptimeDay": "95.79%",
+    "uptimeDay": "95.80%",
     "uptimeWeek": "99.40%",
     "uptimeMonth": "99.86%",
     "uptimeYear": "99.95%",
@@ -145,6 +147,7 @@
     "timeMonth": 207,
     "timeYear": 208,
     "dailyMinutesDown": {
+      "2023-06-11": 0,
       "2023-06-10": 61
     }
   },
