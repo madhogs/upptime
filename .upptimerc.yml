@@ -40,6 +40,10 @@ sites:
     url: https://bazarr.$BASE_URL_MADHOGS
   - name: Prowlarr UI
     url: https://prowlarr.$BASE_URL_MADHOGS
+  - name: Website
+    url: https://$DOMAIN_WEBSITE
+  - name: Website Subdomain
+    url: https://www.$DOMAIN_WEBSITE
 
 status-website:
   cname: status.madhogs.dev
