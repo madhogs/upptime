@@ -1,7 +1,7 @@
 url: https://qbittorrent.$BASE_URL_MADHOGS
-status: down
-code: 502
-responseTime: 3655
-lastUpdated: 2023-06-18T20:04:49.498Z
+status: up
+code: 200
+responseTime: 892
+lastUpdated: 2023-06-18T20:43:40.255Z
 startTime: Tue Mar 07 2023 21:47:32 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
