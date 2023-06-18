@@ -1,7 +1,7 @@
 url: https://jellyfin.$BASE_URL_MADHOGS
 status: up
 code: 200
-responseTime: 893
-lastUpdated: 2023-06-18T20:38:21.733Z
+responseTime: 570
+lastUpdated: 2023-06-18T20:45:25.573Z
 startTime: Tue Mar 07 2023 21:47:50 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
