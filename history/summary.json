@@ -114,19 +114,19 @@
     "url": "https://qbittorrent.$BASE_URL_MADHOGS",
     "icon": "https://icons.duckduckgo.com/ip3/qbittorrent..ico",
     "slug": "q-bit-torrent-ui",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "97.64%",
-    "uptimeWeek": "99.66%",
-    "uptimeMonth": "99.92%",
-    "uptimeYear": "99.98%",
-    "time": 757,
-    "timeDay": 1408,
-    "timeWeek": 823,
-    "timeMonth": 768,
-    "timeYear": 757,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "97.30%",
+    "uptimeWeek": "99.61%",
+    "uptimeMonth": "99.91%",
+    "uptimeYear": "99.97%",
+    "time": 760,
+    "timeDay": 1304,
+    "timeWeek": 828,
+    "timeMonth": 771,
+    "timeYear": 760,
     "dailyMinutesDown": {
-      "2023-06-18": 34
+      "2023-06-18": 39
     }
   },
   {
@@ -235,19 +235,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/prowlarr..ico",
     "slug": "prowlarr-ui",
     "status": "up",
-    "uptime": "99.89%",
-    "uptimeDay": "97.76%",
-    "uptimeWeek": "99.68%",
-    "uptimeMonth": "99.89%",
-    "uptimeYear": "99.89%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 745,
     "timeDay": 1266,
     "timeWeek": 806,
     "timeMonth": 745,
     "timeYear": 745,
-    "dailyMinutesDown": {
-      "2023-06-18": 32
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Website",
