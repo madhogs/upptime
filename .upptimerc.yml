@@ -30,10 +30,6 @@ sites:
     url: https://qbittorrent.$BASE_URL_MADHOGS
   - name: Jellyfin UI
     url: https://jellyfin.$BASE_URL_MADHOGS
-  - name: Sonarr UI
-    url: https://sonarr.$BASE_URL_MADHOGS
-  - name: Prowlarr UI
-    url: https://prowlarr.$BASE_URL_MADHOGS
   - name: Website
     url: https://$DOMAIN_WEBSITE
   - name: Website Subdomain
