@@ -28,8 +28,6 @@ sites:
     port: $SITE_PORT_TOR_PROXY
   - name: qBitTorrent UI
     url: https://qbittorrent.$BASE_URL_MADHOGS
-  - name: Jellyfin UI
-    url: https://jellyfin.$BASE_URL_MADHOGS
   - name: Website
     url: https://$DOMAIN_WEBSITE
   - name: Website Subdomain
