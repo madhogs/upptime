@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "q-bittorrent-public",
     "status": "down",
-    "uptime": "86.94%",
+    "uptime": "86.73%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
-    "uptimeMonth": "41.22%",
-    "uptimeYear": "86.94%",
+    "uptimeMonth": "40.14%",
+    "uptimeYear": "86.73%",
     "time": 139,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 133,
     "timeYear": 139,
     "dailyMinutesDown": {
-      "2023-07-21": 494,
+      "2023-07-21": 968,
       "2023-07-20": 1440,
       "2023-07-19": 1440,
       "2023-07-18": 1440,
@@ -150,9 +150,9 @@
     "url": "https://jellyfin.$BASE_URL_MADHOGS",
     "icon": "https://icons.duckduckgo.com/ip3/jellyfin..ico",
     "slug": "jellyfin-ui",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -161,7 +161,9 @@
     "timeWeek": 731,
     "timeMonth": 672,
     "timeYear": 764,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-07-21": 0
+    }
   },
   {
     "name": "Website",
