@@ -5,18 +5,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "q-bittorrent-public",
     "status": "down",
-    "uptime": "57.63%",
+    "uptime": "57.61%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "57.63%",
+    "uptimeYear": "57.61%",
     "time": 139,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 139,
     "dailyMinutesDown": {
-      "2023-09-28": 1393,
+      "2023-09-29": 73,
+      "2023-09-28": 1440,
       "2023-09-27": 1440,
       "2023-09-26": 1440,
       "2023-09-25": 1440,
@@ -112,18 +113,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "monero-public",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.60%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.96%",
+    "uptimeDay": "91.24%",
+    "uptimeWeek": "98.75%",
+    "uptimeMonth": "99.71%",
+    "uptimeYear": "99.96%",
     "time": 132,
     "timeDay": 0,
     "timeWeek": 163,
     "timeMonth": 137,
     "timeYear": 132,
     "dailyMinutesDown": {
-      "2023-09-28": 6
+      "2023-09-29": 73,
+      "2023-09-28": 53
     }
   },
   {
@@ -132,18 +134,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "tor-bridge-or-public",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.69%",
-    "uptimeWeek": "99.96%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.96%",
+    "uptimeDay": "91.33%",
+    "uptimeWeek": "98.76%",
+    "uptimeMonth": "99.71%",
+    "uptimeYear": "99.96%",
     "time": 125,
     "timeDay": 0,
     "timeWeek": 144,
     "timeMonth": 130,
     "timeYear": 125,
     "dailyMinutesDown": {
-      "2023-09-28": 5
+      "2023-09-29": 73,
+      "2023-09-28": 52
     }
   },
   {
@@ -152,18 +155,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "tor-bridge-pt-public",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.77%",
-    "uptimeWeek": "99.97%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.96%",
+    "uptimeDay": "91.42%",
+    "uptimeWeek": "98.77%",
+    "uptimeMonth": "99.72%",
+    "uptimeYear": "99.96%",
     "time": 124,
     "timeDay": 0,
     "timeWeek": 144,
     "timeMonth": 130,
     "timeYear": 124,
     "dailyMinutesDown": {
-      "2023-09-28": 3
+      "2023-09-29": 73,
+      "2023-09-28": 51
     }
   },
   {
@@ -172,18 +176,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "vpn-proxy",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.86%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.96%",
+    "uptimeDay": "91.51%",
+    "uptimeWeek": "98.79%",
+    "uptimeMonth": "99.72%",
+    "uptimeYear": "99.96%",
     "time": 221,
     "timeDay": 0,
     "timeWeek": 248,
     "timeMonth": 227,
     "timeYear": 221,
     "dailyMinutesDown": {
-      "2023-09-28": 2
+      "2023-09-29": 73,
+      "2023-09-28": 49
     }
   },
   {
@@ -192,18 +197,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "tor-proxy",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.96%",
+    "uptimeDay": "91.60%",
+    "uptimeWeek": "98.80%",
+    "uptimeMonth": "99.72%",
+    "uptimeYear": "99.96%",
     "time": 143,
     "timeDay": 0,
     "timeWeek": 160,
     "timeMonth": 149,
     "timeYear": 143,
     "dailyMinutesDown": {
-      "2023-09-28": 1
+      "2023-09-29": 73,
+      "2023-09-28": 48
     }
   },
   {
@@ -212,18 +218,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/qbittorrent..ico",
     "slug": "q-bit-torrent-ui",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.96%",
+    "uptimeDay": "91.62%",
+    "uptimeWeek": "98.80%",
+    "uptimeMonth": "99.72%",
+    "uptimeYear": "99.96%",
     "time": 652,
     "timeDay": 0,
     "timeWeek": 698,
     "timeMonth": 644,
     "timeYear": 652,
     "dailyMinutesDown": {
-      "2023-09-28": 0
+      "2023-09-29": 73,
+      "2023-09-28": 48
     }
   },
   {
