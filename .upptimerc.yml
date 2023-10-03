@@ -10,14 +10,10 @@ sites:
     check: "tcp-ping"
     url: $BASE_URL_MADHOGS
     port: $SITE_PORT_MONERO_PUBLIC
-  - name: Tor bridge OR public
+  - name: Tor relay public
     check: "tcp-ping"
     url: $BASE_URL_MADHOGS
-    port: $SITE_PORT_TOR_OR_PUBLIC
-  - name: Tor bridge PT public
-    check: "tcp-ping"
-    url: $BASE_URL_MADHOGS
-    port: $SITE_PORT_TOR_PT_PUBLIC
+    port: $SITE_PORT_TOR_RELAY_PUBLIC
   - name: Vpn Proxy
     check: "tcp-ping"
     url: oracle
