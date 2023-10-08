@@ -1,0 +1,21 @@
+name: Notify
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+jobs:
+  notify:
+    name: Send notification
+    runs-on: ubuntu-latest
+    steps:
+      - name: Tailscale
+        uses: tailscale/github-action@v1
+        with:
+          authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
+          version: '1.48.1'
+      - name: Send notification
+        run: |
+          HEADER="Content-Type: application/json"
+          URL="http://pi:${{ secrets.SITE_PORT_SIGNAL }}/v2/send"
+          BODY="{\"message\": \"localhost\", \"number\": \"${{ secrets.NOTIFY_NUMBER }}\", \"recipients\": [ \"${{ secrets.NOTIFY_NUMBER }}\" ]}"
+          curl -X POST -H "$HEADER" "$URL" -d "$BODY"
