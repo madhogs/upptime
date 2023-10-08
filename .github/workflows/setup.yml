@@ -17,10 +17,10 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT }}
       - name: Tailscale
-        uses: tailscale/github-action@v1
+        uses: tailscale/github-action@v2
         with:
           authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
-          version: '1.48.1'
+          version: '1.50.1'
       - name: Update response time
         uses: upptime/uptime-monitor@v1.32.0
         with:
