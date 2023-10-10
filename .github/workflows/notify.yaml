@@ -13,7 +13,8 @@ jobs:
         with:
           authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
           version: '1.50.1'
-      - name: Test script
+      - name: Check Octopus
+        id: check-octopus
         run: |
           THRESHOLD="5";
           PRODUCT="AGILE-FLEX-22-11-25";
@@ -28,29 +29,12 @@ jobs:
 
           if [[ $FILTERED_RESPONSE ]]; then
             echo $FILTERED_RESPONSE | jq "{ price: .value_inc_vat, start: .valid_from, end: .valid_to }" > /dev/stdout
-            echo "Cheaper than threshold"
+            echo "BELOW_THRESHOLD=true" >> $GITHUB_OUTPUT
           else
-            echo "Nothing cheaper than threshold"
+            echo "BELOW_THRESHOLD=false" >> $GITHUB_OUTPUT
           fi
-      - name: Set variables
-        id: set-variables
-        run: |
-          THRESHOLD="5"
-          PRODUCT="AGILE-FLEX-22-11-25"
-          TARIFF="E-1R-$PRODUCT-G"
-          PERIOD_FROM=$(date +%FT08:00Z)
-          URL="https://api.octopus.energy/v1/products/$PRODUCT/electricity-tariffs/$TARIFF/standard-unit-rates/?period_from=$PERIOD_FROM"
-          SELECTOR=".results[] | select(.value_inc_vat < $THRESHOLD)"
-          echo "URL=$URL" >> "$GITHUB_OUTPUT"
-          echo "SELECTOR=$SELECTOR" >> "$GITHUB_OUTPUT"
-      - name: Check Octopus
-        id: check-octopus
-        run: |
-          RESPONSE=$(curl ${{ steps.set-variables.outputs.URL }})
-          FILTERED_RESPONSE=$(echo $RESPONSE | jq "${{ steps.set-variables.outputs.SELECTOR }}")
-          echo "FILTERED_RESPONSE=$FILTERED_RESPONSE" >> "$GITHUB_OUTPUT"
       - name: Send notification
-        if: ${{ steps.check-octopus.outputs.FILTERED_RESPONSE }}
+        if: ${{ steps.check-octopus.outputs.BELOW_THRESHOLD }}
         run: |
           HEADER="Content-Type: application/json"
           URL="http://pi:${{ secrets.SITE_PORT_SIGNAL }}/v2/send"
