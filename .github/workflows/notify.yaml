@@ -26,7 +26,7 @@ jobs:
         id: check-octopus
         run: |
           RESPONSE="$(curl ${{ steps.set-variables.outputs.URL }})"
-          echo "FILTERED_RESPONSE=$(echo $RESPONSE | jq "${{ steps.set-variables.outputs.SELECTOR }}")" >> "$GITHUB_OUTPUT"
+          echo "FILTERED_RESPONSE=$(echo $RESPONSE | jq \"${{ steps.set-variables.outputs.SELECTOR }}\")" >> "$GITHUB_OUTPUT"
       - name: Send notification
         if: ${{ steps.check-octopus.outputs.FILTERED_RESPONSE }}
         run: |
