@@ -13,9 +13,25 @@ jobs:
         with:
           authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
           version: '1.50.1'
-      - name: Check jq
+      - name: Test script
         run: |
-          echo "$(jq --version)"
+          THRESHOLD="5";
+          PRODUCT="AGILE-FLEX-22-11-25";
+          TARIFF="E-1R-$PRODUCT-G";
+          PERIOD_FROM=$(date +%FT08:00Z);
+
+          URL="https://api.octopus.energy/v1/products/$PRODUCT/electricity-tariffs/$TARIFF/standard-unit-rates/?period_from=$PERIOD_FROM";
+          SELECTOR=".results[] | select(.value_inc_vat < $THRESHOLD)";
+
+          RESPONSE=$(curl $URL);
+          FILTERED_RESPONSE=$(echo $RESPONSE | jq "$SELECTOR");
+
+          if [[ $FILTERED_RESPONSE ]]; then
+            echo $FILTERED_RESPONSE | jq "{ price: .value_inc_vat, start: .valid_from, end: .valid_to }" > /dev/stdout
+            echo "Cheaper than threshold"
+          else
+            echo "Nothing cheaper than threshold"
+          fi
       - name: Set variables
         id: set-variables
         run: |
