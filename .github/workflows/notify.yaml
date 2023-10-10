@@ -13,6 +13,9 @@ jobs:
         with:
           authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
           version: '1.50.1'
+      - name: Check jq
+        run: |
+          echo "$(jq --version)"
       - name: Set variables
         id: set-variables
         run: |
