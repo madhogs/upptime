@@ -34,7 +34,7 @@ jobs:
             echo "BELOW_THRESHOLD=false" >> $GITHUB_OUTPUT
           fi
       - name: Send notification
-        if: ${{ steps.check-octopus.outputs.BELOW_THRESHOLD }}
+        if: ${{ steps.check-octopus.outputs.BELOW_THRESHOLD == true }}
         run: |
           HEADER="Content-Type: application/json"
           URL="http://pi:${{ secrets.SITE_PORT_SIGNAL }}/v2/send"
