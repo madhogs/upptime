@@ -1,11 +1,11 @@
-name: Notify
+name: Octopus Agile Price Notify
 on:
   schedule:
     - cron: "0 8 * * *"
   workflow_dispatch:
 jobs:
   notify:
-    name: Send notification
+    name: Send notification on cheap octopus agile pricing
     runs-on: ubuntu-latest
     steps:
       - name: Tailscale
@@ -13,10 +13,23 @@ jobs:
         with:
           authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
           version: '1.50.1'
+      - name: Set variables
+        run: |
+          THRESHOLD="5"
+          PRODUCT="AGILE-FLEX-22-11-25"
+          TARIFF="E-1R-$PRODUCT-G"
+          PERIOD_FROM="$(date +%FT08:00Z)"
+          echo "URL=https://api.octopus.energy/v1/products/$PRODUCT/electricity-tariffs/$TARIFF/standard-unit-rates/?period_from=$PERIOD_FROM" >> "$GITHUB_ENV"
+          echo "SELECTOR=.results[] | select(.value_inc_vat < $THRESHOLD)" >> "$GITHUB_ENV"
+      - name: Check Octopus
+        run: |
+          RESPONSE="$(curl $URL)"
+          echo "FILTERED_RESPONSE=$(echo $RESPONSE | jq "$SELECTOR")" >> "$GITHUB_ENV"
       - name: Send notification
+        if: $FILTERED_RESPONSE
         run: |
           HEADER="Content-Type: application/json"
           URL="http://pi:${{ secrets.SITE_PORT_SIGNAL }}/v2/send"
-          MESSAGE="Test message"
+          MESSAGE="Energy less than threshold"
           BODY="{\"message\": \"$MESSAGE\", \"number\": \"${{ secrets.NOTIFY_NUMBER }}\", \"recipients\": [ \"${{ secrets.NOTIFY_NUMBER }}\" ]}"
           curl -X POST -H "$HEADER" "$URL" -d "$BODY"
