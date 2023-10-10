@@ -19,14 +19,17 @@ jobs:
           THRESHOLD="5"
           PRODUCT="AGILE-FLEX-22-11-25"
           TARIFF="E-1R-$PRODUCT-G"
-          PERIOD_FROM="$(date +%FT08:00Z)"
-          echo "URL=https://api.octopus.energy/v1/products/$PRODUCT/electricity-tariffs/$TARIFF/standard-unit-rates/?period_from=$PERIOD_FROM" >> "$GITHUB_OUTPUT"
-          echo "SELECTOR=.results[] | select(.value_inc_vat < $THRESHOLD)" >> "$GITHUB_OUTPUT"
+          PERIOD_FROM=$(date +%FT08:00Z)
+          URL="https://api.octopus.energy/v1/products/$PRODUCT/electricity-tariffs/$TARIFF/standard-unit-rates/?period_from=$PERIOD_FROM"
+          SELECTOR=".results[] | select(.value_inc_vat < $THRESHOLD)"
+          echo "URL=$URL" >> "$GITHUB_OUTPUT"
+          echo "SELECTOR=$SELECTOR" >> "$GITHUB_OUTPUT"
       - name: Check Octopus
         id: check-octopus
         run: |
-          RESPONSE="$(curl ${{ steps.set-variables.outputs.URL }})"
-          echo "FILTERED_RESPONSE=$(echo $RESPONSE | jq \"${{ steps.set-variables.outputs.SELECTOR }}\")" >> "$GITHUB_OUTPUT"
+          RESPONSE=$(curl ${{ steps.set-variables.outputs.URL }})
+          FILTERED_RESPONSE=$(echo $RESPONSE | jq "${{ steps.set-variables.outputs.SELECTOR }}")
+          echo "FILTERED_RESPONSE=$FILTERED_RESPONSE" >> "$GITHUB_OUTPUT"
       - name: Send notification
         if: ${{ steps.check-octopus.outputs.FILTERED_RESPONSE }}
         run: |
