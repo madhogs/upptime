@@ -16,7 +16,7 @@ jobs:
       - name: Check Octopus
         id: check-octopus
         run: |
-          THRESHOLD="-5";
+          THRESHOLD="5";
           PRODUCT="AGILE-FLEX-22-11-25";
           TARIFF="E-1R-$PRODUCT-G";
           PERIOD_FROM=$(date +%FT08:00Z);
