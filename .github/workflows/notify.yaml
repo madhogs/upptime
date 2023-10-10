@@ -29,12 +29,12 @@ jobs:
 
           if [[ $FILTERED_RESPONSE ]]; then
             echo $FILTERED_RESPONSE | jq "{ price: .value_inc_vat, start: .valid_from, end: .valid_to }" > /dev/stdout
-            echo "BELOW_THRESHOLD=true" >> $GITHUB_OUTPUT
+            echo "BELOW_THRESHOLD='true'" >> $GITHUB_OUTPUT
           else
-            echo "BELOW_THRESHOLD=false" >> $GITHUB_OUTPUT
+            echo "BELOW_THRESHOLD='false'" >> $GITHUB_OUTPUT
           fi
       - name: Send notification
-        if: ${{ steps.check-octopus.outputs.BELOW_THRESHOLD == true }}
+        if: ${{ steps.check-octopus.outputs.BELOW_THRESHOLD == 'true' }}
         run: |
           HEADER="Content-Type: application/json"
           URL="http://pi:${{ secrets.SITE_PORT_SIGNAL }}/v2/send"
