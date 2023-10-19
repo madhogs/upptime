@@ -39,7 +39,7 @@ jobs:
         if: ${{ steps.check-octopus.outputs.BELOW_THRESHOLD == 'true' }}
         run: |
           HEADER="Content-Type: application/json"
-          URL="http://pi:${{ secrets.SITE_PORT_SIGNAL }}/v2/send"
+          URL="http://oracle:${{ secrets.SITE_PORT_SIGNAL }}/v2/send"
           MESSAGE="Energy less than threshold"
           BODY="{\"message\": \"$MESSAGE\", \"number\": \"${{ secrets.NOTIFY_NUMBER }}\", \"recipients\": [ \"${{ secrets.NOTIFY_NUMBER }}\" ]}"
           curl -X POST -H "$HEADER" "$URL" -d "$BODY"
