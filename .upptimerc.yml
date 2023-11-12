@@ -10,18 +10,6 @@ sites:
     check: "tcp-ping"
     url: $BASE_URL_MADHOGS
     port: $SITE_PORT_MONERO_PUBLIC
-  - name: Tor relay public
-    check: "tcp-ping"
-    url: $BASE_URL_MADHOGS
-    port: $SITE_PORT_TOR_RELAY_PUBLIC
-  - name: Vpn Proxy
-    check: "tcp-ping"
-    url: oracle
-    port: $SITE_PORT_VPN_PROXY
-  - name: Tor Proxy
-    check: "tcp-ping"
-    url: oracle
-    port: $SITE_PORT_TOR_PROXY
   - name: qBitTorrent UI
     url: https://qbittorrent.$BASE_URL_MADHOGS
   - name: Website
