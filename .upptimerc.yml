@@ -6,10 +6,6 @@ sites:
     check: "tcp-ping"
     url: $SITE_URL_QBITTORRENT_PUBLIC
     port: $SITE_PORT_QBITTORRENT_PUBLIC
-  - name: Monero public
-    check: "tcp-ping"
-    url: $BASE_URL_MADHOGS
-    port: $SITE_PORT_MONERO_PUBLIC
   - name: qBitTorrent UI
     url: https://qbittorrent.$BASE_URL_MADHOGS
   - name: Website
