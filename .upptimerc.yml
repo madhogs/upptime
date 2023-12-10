@@ -2,12 +2,6 @@ owner: madhogs
 repo: upptime
 
 sites:
-  - name: qBittorrent public
-    check: "tcp-ping"
-    url: $SITE_URL_QBITTORRENT_PUBLIC
-    port: $SITE_PORT_QBITTORRENT_PUBLIC
-  - name: qBitTorrent UI
-    url: https://qbittorrent.$BASE_URL_MADHOGS
   - name: Website
     url: https://$DOMAIN_WEBSITE
   - name: Website Subdomain
