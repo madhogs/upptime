@@ -8,7 +8,7 @@ sites:
     url: https://www.$DOMAIN_WEBSITE
 
 status-website:
-  cname: status.madhogs.dev
+  cname: status.madhogs.pro
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   navbar:
