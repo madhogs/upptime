@@ -2,7 +2,7 @@
   {
     "name": "Website",
     "url": "https://$DOMAIN_WEBSITE",
-    "icon": "https://icons.duckduckgo.com/ip3/.ico",
+    "icon": "https://icons.duckduckgo.com/ip3/$domain_website.ico",
     "slug": "website",
     "status": "up",
     "uptime": "100.00%",
@@ -10,17 +10,17 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 424,
-    "timeDay": 117,
-    "timeWeek": 189,
-    "timeMonth": 252,
+    "time": 423,
+    "timeDay": 301,
+    "timeWeek": 206,
+    "timeMonth": 245,
     "timeYear": 424,
     "dailyMinutesDown": {}
   },
   {
     "name": "Website Subdomain",
     "url": "https://www.$DOMAIN_WEBSITE",
-    "icon": "https://icons.duckduckgo.com/ip3/www..ico",
+    "icon": "https://icons.duckduckgo.com/ip3/www.$domain_website.ico",
     "slug": "website-subdomain",
     "status": "up",
     "uptime": "100.00%",
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 356,
-    "timeDay": 10,
-    "timeWeek": 8,
+    "time": 355,
+    "timeDay": 8,
+    "timeWeek": 9,
     "timeMonth": 7,
-    "timeYear": 345,
+    "timeYear": 343,
     "dailyMinutesDown": {}
   }
 ]
